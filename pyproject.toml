@@ -1,0 +1,41 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+[tool.setuptools]
+py-modules = ["psrk"]
+
+[tool.black]
+line-length = 79
+target-version = ["py310"]
+
+[tool.pytest.ini_options]
+
+testpaths = [
+    "tests",
+]
+
+[project]
+name = "psrk"
+version = "0.0.1"
+authors = [{name = "Brandolín, Salvador Eduardo", email = "salvadorebrandolin@mi.unc.edu.ar"}]
+license = {text = "MIT License"}
+readme = "README.md"
+description = "PSRK Clapeyron.jl wrapper"
+keywords = ["PSRK"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering",
+]
+urls = {Homepage = "https://github.com/SalvadorBrandolin/reactord"}
+dependencies = [
+    "julia==0.6.0",
+    "numpy==1.21.1",
+    "scipy==1.10.0",
+]

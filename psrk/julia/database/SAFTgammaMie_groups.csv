@@ -1,0 +1,5 @@
+Clapeyron Database File,
+SAFTgammaMie Groups [csvtype = groups,grouptype = SAFTgammaMie]
+species,groups
+glycerol,"[""CH2OH"" => 2, ""CHOH"" => 1]"
+lauric acid,"[""CH3"" => 1, ""CH2"" => 10, ""COOH"" => 1]"

@@ -1,0 +1,4 @@
+julia==0.6.0
+numpy==1.21.1
+scipy==1.10.0
+matplotlib==3.6.3

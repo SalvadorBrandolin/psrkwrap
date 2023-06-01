@@ -1,0 +1,21 @@
+Clapeyron Database File,
+PSRK Groups [csvtype = groups,grouptype = PSRK]
+species,groups
+diisopropyl ether,"[""CH3"" => 4,""CH"" => 1,""CHO"" => 1]"
+toluene,"[""ACH"" => 5, ""ACCH3"" => 1]"
+hexane,"[""CH3"" => 2, ""CH2"" => 4]"
+heptane,"[""CH3"" => 2, ""CH2"" => 5]"
+acetic acid,"[""CH3"" => 1,""COOH"" => 1]"
+octanoic acid,"[""CH3"" => 1,""CH2"" => 6,""COOH"" => 1]"
+lauric acid,"[""CH3"" => 1,""CH2"" => 10,""COOH"" => 1]"
+peracetic acid,"[""CH3COO"" => 1,""OH"" => 1]"
+peroctanoic acid,"[""CH3"" => 1,""CH2"" => 5,""CH2COO"" => 1,""OH"" => 1]"
+perlauric acid,"[""CH3"" => 1,""CH2"" => 9,""CH2COO"" => 1,""OH"" => 1]"
+water,"[""H2O""=>1]"
+hydrogen peroxide,"[""OH"" => 2]"
+limonene,"[""CH3"" => 2,""CH2"" => 3,""CH"" => 1,""CH2=C"" => 1,""CH=C"" => 1]"
+ethanol,"[""CH3"" => 1,""CH2"" => 1,""OH"" => 1]"
+propanol,"[""CH3"" => 1,""CH2"" => 2,""OH"" => 1]"
+glycerol,"[""CH2"" => 2,""CH"" => 1,""OH"" => 3]"
+ethyl acetate, "[""CH3COO"" => 1,""CH2"" => 1,""CH3"" => 1]"
+isoamyl alcohol, "[""CH3"" => 2,""CH2"" => 2,""CH"" => 1,""OH"" => 1]"

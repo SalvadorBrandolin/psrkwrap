@@ -1,0 +1,4 @@
+*sys.so*
+*__pycache__*
+*.tox*
+*psrk.egg-info*

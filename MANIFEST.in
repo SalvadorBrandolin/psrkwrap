@@ -1,0 +1,18 @@
+include LICENSE
+include README.md
+include requirements.txt
+recursive-include psrk *
+
+exclude tox.ini
+exclude pyproject.toml
+exclude .readthedocs.yml
+exclude requirements_dev.txt
+exclude *.ipynb
+exclude *.ods
+recursive-exclude psrk *.mod *.log *.pyc *.png *.so
+recursive-exclude tests *
+recursive-exclude tutorial_clapeyron *
+recursive-exclude bibliography *
+recursive-exclude original_database *
+recursive-exclude utils *
+recursive-exclude __pycache__ *

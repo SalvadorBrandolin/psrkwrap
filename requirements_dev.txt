@@ -1,0 +1,20 @@
+# Style requirements
+flake8-black
+flake8-builtins
+flake8-import-order
+pep8-naming
+
+# testing
+tox
+pytest
+
+# General purpose
+ipdb
+ipython
+jupyter
+
+# Requirements library
+julia==0.6.0
+numpy==1.21.1
+scipy==1.10.0
+matplotlib==3.6.3
