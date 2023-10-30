@@ -1,7 +1,7 @@
 Julia 1.8.3 and Python 3.10
 
 Julia: 
-Clapeyron v0.4.2
+Clapeyron v0.5.7
 IJulia v1.23.3
 PackageCompiler v2.1.5
 PyCall v1.95.1
@@ -41,6 +41,16 @@ The installation is not very complex but has its quirks.
 
 INSTALLATION
 
+Easy way  
+In your python interpreter:
+
+```python
+from psrk import install
+
+install()
+```
+
+Manual way:
 1) Install Julia. This is a bit cumbersome; you need to download the Julia 
 folder and add it to the .bashrc path. For example:
     export PATH="$PATH:~/julia-1.8.3/bin"

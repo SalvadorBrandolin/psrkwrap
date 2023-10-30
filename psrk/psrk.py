@@ -2,24 +2,25 @@ import os
 
 from julia import Julia
 
+import numpy as np
+
 # Directorio de donde se instalo psrk.py
 dirname = os.path.dirname(__file__)
 
 # Ubicacion del compilado de julia sys.so
-jl = Julia(sysimage=f"{dirname}/sys.so")
+if os.path.exists(f"{dirname}/sys.so"):
+    jl = Julia(sysimage=f"{dirname}/sys.so")
 
-from julia import Main
+    from julia import Main
 
-import numpy as np
+    # Uso a Clapeyron
+    Main.using("Clapeyron")
 
-# Uso a Clapeyron
-Main.using("Clapeyron")
+    # Incluir Mathias Copeman
+    Main.include(f"{dirname}/julia/mathiascopeman.jl")
 
-# Incluir Mathias Copeman
-Main.include(f"{dirname}/julia/mathiascopeman.jl")
-
-# Incluir PSRKFULL
-Main.include(f"{dirname}/julia/psrkfull.jl")
+    # Incluir PSRKFULL
+    Main.include(f"{dirname}/julia/psrkfull.jl")
 
 
 class PSRK:

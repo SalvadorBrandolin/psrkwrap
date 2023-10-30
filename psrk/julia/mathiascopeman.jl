@@ -16,18 +16,6 @@ export MathiasCopemanAlpha
 
 MathiasCopemanAlpha
 
-function MathiasCopemanAlpha(components::Vector{String}; userlocations::Vector{String}=String[], verbose::Bool=false)
-    params = getparams(components; userlocations=userlocations, verbose=verbose)
-    c1 = params["c1"]
-    c2 = params["c2"]
-    c3 = params["c3"]
-    packagedparams = MathiasCopemanAlphaParam(c1,c2,c3)
-    model = MathiasCopemanAlpha(packagedparams, verbose=verbose)
-    return model
-end
-
-MathiasCopemanAlpha
-
 function α_function(model::CubicModel,V,T,z,alpha_model::MathiasCopemanAlphaModel)
     Tc = model.params.Tc.values
     _c1  = alpha_model.params.c1.values
