@@ -7,6 +7,7 @@ import julia
 
 here = Path(__file__).parent.resolve()
 
+
 def install() -> None:
     """Install package."""
     julia.install()

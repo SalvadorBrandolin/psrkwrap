@@ -899,3 +899,10 @@ def test_flash_consistency_2():
 
         assert (activity_hand_x == activity_x).all()
         assert (activity_hand_y == activity_y).all()
+
+
+# =============================================================================
+# test flahes
+# =============================================================================
+def test_flash1():
+    ...
